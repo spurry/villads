@@ -1,3 +1,3 @@
 # villads
-## Home of the villads organization
+## Home of the villads society
 ### By villads & villads
