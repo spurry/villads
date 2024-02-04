@@ -81,8 +81,8 @@ body {
 .content {
     height: 40%;
 
-    margin-left: 25%;
-    margin-right: 25%;
+    margin-left: 20vw;
+    margin-right: 20vw;
 
     padding: 1%;
 
@@ -109,4 +109,34 @@ body {
 .footer h3 {
     color: var(--accent-4);
     margin: 0;
+}
+
+@media only screen and (max-width: 600px){
+    html {
+        font-size: smaller;
+    }
+
+    .navbar {
+        gap: 2%;
+        font-size: 2vw;
+    }
+
+    .content {
+        margin-left: 1vw;
+        margin-right: 1vw;
+    }
+}
+
+@media only screen and (max-width: 1000px) and (min-width: 600px){
+    .content {
+        margin-left: 5vw;
+        margin-right: 5vw;
+    }
+}
+
+@media only screen and (max-width: 1600px) and (min-width: 1000px){
+    .content {
+        margin-left: 8vw;
+        margin-right: 8vw;
+    }
 }
