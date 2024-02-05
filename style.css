@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
-
 :root {
     --bg-color: #3a6ea5;
     --accent-1: #000080;
@@ -33,7 +31,6 @@ body {
     text-align: center;
 
     background-image: linear-gradient(to right, var(--accent-1), var(--accent-2));
-    border-bottom: thick solid var(--accent-3);
 }
 
 .titlebar h1 {
@@ -45,13 +42,10 @@ body {
     justify-content: center;
     align-items: center;
 
-    gap: 5%;
-
-    padding-left: 10%;
-    padding-right: 10%;
+    padding-left: 20%;
+    padding-right: 20%;
 
     background-color: var(--accent-3);
-    border-bottom: thick solid var(--accent-3);
 
     font-size: 1.5vh;
     text-align: center;
@@ -71,7 +65,7 @@ body {
 }
 
 .navbar a:hover {
-    background-color: var(--accent-2);
+    background-color: var(--accent-4);
 }
 
 .container {
