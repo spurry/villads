@@ -1,5 +1,6 @@
 import data from '/rec/quotes.json' assert { type: 'json' };
 
+// get today
 var today = new Date();
 
 var epoch = Math.floor(today / 8.64e7)
