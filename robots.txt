@@ -1,2 +1,7 @@
 User-agent: *
-Disallow: /homepage.html
+Disallow: /
+Allow: /index.html
+Allow: /about.html
+Allow: /friends.html
+Allow: /diversity.html
+Allow: /be-a-villads.html
